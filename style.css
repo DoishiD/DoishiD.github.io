@@ -1,3 +1,13 @@
-.yamum {
-    background-color: aqua;  
+#navBar {
+    display: flex;
+    background-color: #66ddaa;
+}
+#navBar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#navBar ul li {
+    margin-right: 10px; /* Adjust as needed */
 }
