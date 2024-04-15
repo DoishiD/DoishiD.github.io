@@ -1,5 +1,5 @@
 #body   {
-    background-color: #c9c8b2;
+    background-color: #151413;
 }
 
 #navBar {
@@ -9,11 +9,27 @@
     top: 0;
     left: 0;
     right: 0;
+    height: 40px;
 }
 
 #navBar button {
-    background-color: #873b09;
-    color: white;
+    background-color: #873b09a0;
+    color: #ffffffa0;
     border: none;
     cursor: pointer;
+    font-size: clamp(12px, 20px, 32px);
+    transition: background-color 150ms ease-out;
+}
+
+#navBar button:hover {
+    background-color: #873b09f0;
+    color: #fffffff0;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    color: #c9c8b2;
+    top: 30px;
+    font-size: (11px, 18px, 28px);
 }
