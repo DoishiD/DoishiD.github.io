@@ -17,6 +17,7 @@
     color: #ffffffa0;
     border: none;
     cursor: pointer;
+    font-family: "Rubik";
     font-size: clamp(12px, 20px, 32px);
     transition: background-color 150ms ease-out;
 }
@@ -30,6 +31,15 @@
     display: flex;
     position: relative;
     color: #c9c8b2;
-    top: 30px;
-    font-size: (11px, 18px, 28px);
+    top: 40px;
+    font-size: clamp(11px, 18px, 28px);
+}
+
+.test {
+    display: flex;
+    position: relative;
+    color: #a5a490;
+    top: 80px;
+
+    font-size: clamp(11px, 18px, 28px);
 }
