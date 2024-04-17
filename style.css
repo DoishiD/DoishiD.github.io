@@ -27,6 +27,15 @@
     color: #fffffff0;
 }
 
+.body-container {
+    display: flex;
+    flex-flow: ;
+    align-items: center;
+    color: #a5a490;
+    padding: 100px;
+    flex-grow: 1;
+}
+
 .title {
     display: flex;
     position: relative;
@@ -35,11 +44,11 @@
     font-size: clamp(11px, 18px, 28px);
 }
 
-.test {
+.main-text {
     display: flex;
-    position: relative;
+    align-items: center;
     color: #a5a490;
-    top: 80px;
+    flex-shrink: 100;
 
     font-size: clamp(11px, 18px, 28px);
 }
