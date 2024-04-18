@@ -1,5 +1,6 @@
 #body {
   background-image: linear-gradient(to bottom, #2c3131, #151413);
+  font-family: "Rubik";
 }
 
 #navBar {
@@ -9,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: clamp(16px, 28px, 40px);
 }
 
 #navBar button {
@@ -18,7 +19,7 @@
     border: none;
     cursor: pointer;
     font-family: "Rubik";
-    font-size: clamp(12px, 20px, 32px);
+    font-size: clamp(12px, 20px, 30px);
     transition: background-color 150ms ease-out;
 }
 
@@ -32,14 +33,14 @@
     flex-flow: column wrap;
     align-items: center;
     color: #a5a490;
-    padding: clamp(0px, 60px, 100px);
+    padding: clamp(0px, 40px, 60px);
 }
 
 .title {
     display: flex;
     position: relative;
     color: #c9c8b2;
-    font-size: clamp(11px, 18px, 28px);
+    font-size: clamp(3.5rem, 12vw + 1rem, 12rem)/2;
 }
 
 .main-text {
@@ -47,6 +48,14 @@
     align-items: center;
     color: #a5a490;
     flex-shrink: 100;
+    font-size: clamp(1.5rem, 8vw + 1rem, 8rem)/2;
+}
 
-    font-size: clamp(11px, 18px, 28px);
+.banana {
+    size: clamp(50px, 500px, 750px);
+}
+
+.footer {
+    background-color: #151413a0;
+    color: #ffffffa0
 }
