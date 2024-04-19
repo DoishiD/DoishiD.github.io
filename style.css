@@ -1,3 +1,11 @@
+article {
+    width: clamp(200px, 50%, 600px);
+}
+
+:root {
+    --aspect-ratio: calc(100vw / 100vh);
+  }
+
 #body {
   background-image: linear-gradient(to bottom, #2c3131, #151413);
   font-family: "Rubik";
@@ -28,10 +36,18 @@
     color: #fffffff0;
 }
 
+@media (max-aspect-ratio: 0.6) {
+    #navBar button .text {
+        display: none;
+    }
+}
+
 .body-container {
-    display: flex;
-    flex-flow: column wrap;
+    display: grid;
+    grid-template-columns: ;
+    gap: 10px 15px;
     align-items: center;
+    bottom: 1000px;
     color: #a5a490;
     padding: clamp(0px, 40px, 60px);
 }
@@ -46,7 +62,6 @@
 .main-text {
     display: flex;
     align-items: center;
-    color: #a5a490;
     flex-shrink: 100;
     font-size: clamp(1.5rem, 8vw + 1rem, 8rem)/2;
 }
@@ -56,6 +71,6 @@
 }
 
 .footer {
-    background-color: #151413a0;
-    color: #ffffffa0
+    background-color: #c06c18d0;
+    color: #66b343a0
 }
