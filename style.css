@@ -18,7 +18,7 @@ article {
     top: 0;
     left: 0;
     right: 0;
-    height: clamp(16px, 28px, 40px);
+    height: clamp(2.5vh, 3vh, 4vh);
 }
 
 #navBar button {
@@ -45,6 +45,7 @@ article {
 .body-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 10px 15px;
     align-items: center;
     bottom: 1000px;
@@ -55,6 +56,7 @@ article {
 .title {
     display: flex;
     position: relative;
+    top: 4vh;
     color: #c9c8b2;
     font-size: clamp(3.5rem, 12vw + 1rem, 12rem)/2;
 }
@@ -72,7 +74,8 @@ article {
     size: clamp(50px, 500px, 750px);
 }
 
-.footer {
-    background-color: #c06c18d0;
-    color: #66b343a0
+.footer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
