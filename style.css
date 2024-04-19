@@ -44,7 +44,7 @@ article {
 
 .body-container {
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: 1fr 1fr;
     gap: 10px 15px;
     align-items: center;
     bottom: 1000px;
